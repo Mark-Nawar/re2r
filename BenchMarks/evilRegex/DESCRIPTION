@@ -1,0 +1,14 @@
+Package: evilRegex
+Type: Package
+Title: Benchmarking evil regular expressions
+Version: 0.1.0
+Author: Mark Nawar
+Maintainer: Mark Nawar <markadelnawar@gmail.com>
+Description: This is a very simple package to benchmark regular expression functions
+License: NO
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
