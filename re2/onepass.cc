@@ -145,8 +145,9 @@ static const bool ExtraDebug = false;
 // the memory footprint.)
 struct OneState {
   uint32_t matchcond;   // conditions to match right now.
-  uint32_t action[];
+  uint32_t action[1];
 };
+
 
 // The uint32_t conditions in the action are a combination of
 // condition and capture bits and the next state.  The bottom 16 bits
